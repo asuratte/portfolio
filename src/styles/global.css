@@ -1,0 +1,363 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end css reset */
+* {
+  color:#000;
+}
+html {
+  font-size: 13px;
+}
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+a {
+	transition-duration: 0.5s;
+}
+a:hover {
+  opacity: 0.8;
+	transition-duration: 0.5s;
+}
+
+.wrapper{
+  width: 80%;
+  margin:0 auto;
+}
+p {
+    line-height: 1.2;
+}
+h1 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 2rem 0 .75rem 0;
+}
+h2 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.75rem;
+  margin: 1rem 0 .75rem 0;
+  color:#000;
+}
+h3 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 2.5rem 0 1.25rem 0;
+  border-bottom: 1px solid #6f6f6f;
+  padding-bottom: .5rem;
+}
+nav {
+  padding: 1rem 0 1rem 0;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.25rem;
+  background-color: #ccc;
+	background: linear-gradient(45deg, rgba(0,211,255,1),rgba(183,82,234,.56),rgba(255,0,129,1));
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+nav li {
+  margin:.25rem auto;
+  padding: 1rem 0 1rem 0;
+  background-color: #000;
+  width: 100%;
+}
+nav li a {
+  color: #fff;
+  text-align: center;
+  display:block;
+  text-decoration: none;
+}
+
+#work-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#work-container li {
+    width: 100%;
+		position: relative;
+}
+#work-container li a img {
+  max-width:100%;
+  margin:1rem 0 1rem 0;
+  border: 2px solid #000;
+}
+/*#work-container li a:hover {
+	filter: grayscale(50%) contrast(150%) opacity(80%);
+}*/
+span.overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	background-color: rgba(0,0,0,.8);
+	box-shadow: inset .25rem .25rem 0 rgba(255,0,129,.8), .25rem .25rem .5rem rgba(0,211,255,.8);
+	padding: 1rem;
+	text-align: center;
+}
+
+div.about-para {
+  display: flex;
+  flex-direction: column;
+}
+div.about-para p {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+#skills-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#skills-container ul li {
+  padding:1rem;
+  margin:.4rem .4rem 0 0;
+  background: #000;
+  color:#fff;
+  font-size: 1.25rem;
+}
+footer {
+  background-color: #000;
+  margin-top: 2rem;
+	background: linear-gradient(45deg, rgba(255,0,129,1),rgba(183,82,234,.56),rgba(0,211,255,1));
+
+}
+footer p {
+  color: #000;
+}
+footer div.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0 2rem 0;
+    justify-content: space-between;
+}
+a.social-links span {
+    font-size: 2rem;
+    padding-left: .75rem;
+    color: #000;
+    padding-top:.75rem;
+}
+.lb-data .lb-caption {
+    color:#fff;
+		font-size: 1rem;
+    line-height: 1.2;
+    text-shadow: 3px 3px 5px #000;
+}
+.lb-data .lb-details {
+    width: 95%;
+}
+.site-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.body-wrapper {
+  flex-grow: 1;
+}
+
+/* card css */
+
+.card-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.single-card {
+width: 350px;
+height: 350px;
+display: block;
+box-sizing: border-box;
+background-color: #000;
+color: #f9f9f9;
+margin-bottom: 1.25rem;
+}
+.single-card a {
+text-decoration: none;
+height: 100%;
+  display: block;
+
+}
+.card-img {
+height:210px;
+overflow:hidden;
+}
+.card-img img {
+width: 100%;
+-webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+.single-card a:hover .card-img img {
+transform: scale(1.18);
+}
+.card-info {
+padding: 1rem;
+}
+.card-info >*{
+color:#f9f9f9;
+}
+.card-title {
+font-size: 1.25rem;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: .5rem;
+}
+.card-description {
+font-size: 1rem;
+}
+
+
+/* Large Mobile and Up*/
+@media screen and (min-width:550px){
+nav ul {
+  flex-direction: row;
+}
+#work-container li {
+    width: 45%;
+}
+footer div.wrapper {
+    display: flex;
+}
+a.social-links span {
+    padding-top:0;
+}
+h1 {
+      font-size: 3.2rem;
+}
+}
+
+/* Large Mobile */
+@media screen and (min-width:550px) and (max-width:680px){
+  html {
+    font-size: 15px;
+  }
+  nav li {
+    margin: .25rem auto;
+    padding: 1rem 1rem;
+    width: auto;
+  }
+	span.overlay {
+		font-size: .8rem;
+	}
+}
+/* Tablet and Up */
+@media screen and (min-width:681px){
+html {
+  font-size: 16px;
+}
+header {
+  text-align: center;
+}
+
+}
+
+/* Tablet */
+@media screen and (min-width:681px) and (max-width:980px){
+  nav li {
+    margin: .25rem auto;
+    padding: 1rem 2rem;
+    width: auto;
+  }
+	span.overlay {
+		font-size: .8rem;
+	}
+}
+
+/* Small Desktop and Up */
+@media screen and (min-width:981px){
+#work-container li {
+    width: 30%;
+}
+div.about-para {
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.about-para p {
+  width: 48%;
+}
+}
+/* Small Desktop */
+@media screen and (min-width:981px) and (max-width:1500px){
+  nav ul {
+    justify-content: flex-end;
+  }
+  nav li {
+    margin: .25rem .5rem;
+    padding: 1rem 2rem;
+    background-color: #000;
+    width: auto;
+  }
+
+}
+
+/* Large Desktop */
+@media screen and (min-width:1501px){
+  nav ul {
+    justify-content: flex-end;
+  }
+  nav li {
+    margin: .25rem .5rem;
+    padding: 1rem 2rem;
+    background-color: #000;
+    width: auto;
+  }
+	span.overlay {
+		padding:1.5rem;
+	}
+}
