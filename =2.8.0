@@ -1,0 +1,4 @@
++ typescript@3.8.3
+added 1 package from 1 contributor, removed 190 packages and audited 25522 packages in 9.183s
+found 34 vulnerabilities (33 low, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details

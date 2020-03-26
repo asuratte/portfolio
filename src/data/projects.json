@@ -1,0 +1,107 @@
+[
+{
+    "title": "230 West Coffee Launch Landing Page",
+    "slug": "230-west-coffee-launch-landing-page",
+    "image": "./images/AHR-230West-LP.jpg",
+    "descriptionShort": "This is one of seven landing pages I designed and built for a new product launch campaign.",
+    "descriptionLong": "These landing pages were designed in Photoshop, and coded using Bootstrap as a base."
+},
+{
+    "title": "1888 Mills Landing Page",
+    "slug": "1888-mills-landing-page",
+    "image": "./images/AHR-1888-Mills-LP.jpg",
+    "descriptionShort": "This is a landing page I designed and built to promote a supplier for American Hotel Register Company.",
+    "descriptionLong": "This landing page was mocked up by the supplier's design team, and provided to me for coding. I then adapted the design to fit within American Hotel brand standards, and coded it using Bootstrap as a base."
+},
+{
+    "title": "Homepage Component Placement A/B Test",
+    "slug": "homepage-component-placement-test",
+    "image": "./images/AHR-ShopByCategory-AB-Test.jpg",
+    "descriptionShort": "This was an experiment I set up on the homepage using Adobe Target.",
+    "descriptionLong": "The left screenshot was the control, and the right was the variation. The goal of the experiment was to increase revenue by getting products in front of users sooner. The variation ended up winning."
+},
+{
+    "title": "404 Page Design",
+    "slug": "404-landing-page",
+    "image": "./images/AHR-404-LP.jpg",
+    "descriptionShort": "I created this as an entry to a department-wide contest, and it was chosen as the winning design.",
+    "descriptionLong": "An adaptation of this design is currently being used on the American Hotel website."
+},
+{
+    "title": "OTB Boots Homepage",
+    "slug": "otb-boots-homepage",
+    "image": "./images/OTB-Boots-Homepage.jpg",
+    "descriptionShort": "This website was created to launch a new boot brand.",
+    "descriptionLong": "This site needed to be launched on a tight timeline. Because of this, I chose to use Wordpress as the CMS, and used a base theme called Divi. I started the design process by creating wireframes based on the content. I then translated those to mockups using Adobe XD. After getting design approval, I added my own code on top of the base theme and used the visual composer to achieve the desired layout."
+},
+{
+    "title": "US Patriot Checkout Multivariate Test",
+    "slug": "usp-checkout-mvt-test",
+    "image": "./images/USP-Mobile-MVT-Test.jpg",
+    "descriptionShort": "I ran this test on the mobile version of the US Patriot checkout page. It was set up using Google Optimize.",
+    "descriptionLong": "The primary goal of this test was to decrease the bounce rate on mobile. The secondary goal was to increase the conversion rate. While creating this test, I analyzed the control page and found areas for improvement. I ended up with 64 total variations tested, with the winner being shown on the right in the image above."
+},
+{
+    "title": "US Patriot Mobile Homepage A/B Test",
+    "slug": "usp-mobile-homepage-ab-test",
+    "image": "./images/USP-Homepage-AB-Test.jpg",
+    "descriptionShort": "I ran this test on the mobile version of the US Patriot homepage. It was set up using Google Optimize.",
+    "descriptionLong": "The screenshot on the left was the control, the middle screenshot was variation 1, and the right screenshot was variation 2. Variation 2 was the winner, with the most clicks on the sub-category links."
+},
+{
+    "title": "Brew Chew Website Design",
+    "slug": "brew-chew-web-design",
+    "image": "./images/Brew-Chew-LP.jpg",
+    "descriptionShort": "I designed and built this theme for an e-commerce site promoting a new brand.",
+    "descriptionLong": "This custom e-commerce site theme was developed using Stencil CLI for the BigCommerce platform."
+},
+{
+    "title": "US Patriot Category Split URL Test",
+    "slug": "usp-category-split-url-test",
+    "image": "./images/USPMidLevelCatPage.jpg",
+    "descriptionShort": "For this test I created a mid-level category page, to go in between the CLP and PLP.",
+    "descriptionLong": "The hypothesis for this test was that if users were able to drill down to the boot they wanted before being presented with the full PLP, they'd be more likely to add a pair of boots to their cart. That hypothesis was proven false by this test. The custom-coded carousels were made using the Slick slider plugin."
+},
+{
+    "title": "Shellback Tactical Website Redesign",
+    "slug": "sbt-website-redesign",
+    "image": "./images/SBT-Site-Redesign.jpg",
+    "descriptionShort": "I redesigned and developed a custom BigCommerce theme for an existing e-commerce site.",
+    "descriptionLong": "The left screenshot is the old website. The right screenshot is the redesigned version. I built a custom BigCommerce Blueprint theme for this project. The goal was to give the brand a more modern look and feel. I also created an updated logo design and style guide to go with the new website theme."
+},
+{
+    "title": "US Patriot Mobile Locations User Flow",
+    "slug": "usp-mobile-locations",
+    "image": "./images/usp-mobile-locations-flow.jpg",
+    "descriptionShort": "I improved the user experience on mobile for users trying to get store location information.",
+    "descriptionLong": "The previous version of the locations section on mobile involved scrolling through a long list of locations across every state. I improved upon this by adding a location selector feature built with JavaScript. Once the user selected their state, they were presented with a list of stores near them."
+},
+{
+    "title": "Exit Intent Overlay",
+    "slug": "usp-exit-intent-popup",
+    "image": "./images/exit-popup_full.jpg",
+    "descriptionShort": "This was one of many on-site remarketing overlays I designed and built for US Patriot.",
+    "descriptionLong": "These were created and scheduled using JustUno."
+},
+{
+    "title": "Supplier Marketing Emails",
+    "slug": "american-hotel-emails",
+    "image": "./images/AHR-emails.jpg",
+    "descriptionShort": "I designed these emails for various supplier marketing campaigns at American Hotel Register Company.",
+    "descriptionLong": "These emails were mocked up in Photoshop, coded, tested in Litmus, and imported into IBM Watson for sending."
+},
+{
+    "title": "US Patriot Email Templates",
+    "slug": "usp-email-templates",
+    "image": "./images/usp-emails_full.jpg",
+    "descriptionShort": "I designed, built and tested several email templates for use in HubSpot and MailChimp.",
+    "descriptionLong": "These were then used by the design team to create emails without the need for custom code."
+},
+{
+    "title": "Infographic Design",
+    "slug": "infographic-design",
+    "image": "./images/Fleetmatics-infographic.jpg",
+    "descriptionShort": "I designed this infographic as a visual representation of Fleetmatics' annual Fleet Beat report.",
+    "descriptionLong": "For this project I was given a word document with all of the facts that needed to be called out. I then created a visual representation for all of them, simplifying them to fit into an infographic for social media. This was designed in Adobe Illustrator."
+} 
+]

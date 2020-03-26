@@ -1,16 +1,21 @@
 import React from "react"
-import { Link } from "gatsby"
 
 export default ({ children }) => (
   <div class="site-wrapper">
     <nav>
     <ul class="wrapper">
-      <li><a href="#work-container">My Work</a></li>
-      <li><a href="#skills-container">My Skills</a></li>
-      <li><a href="#about-container">About Me</a></li>
+      <li><a href="/#work-container">My Work</a></li>
+      <li><a href="/#skills-container">My Skills</a></li>
+      <li><a href="/#about-container">About Me</a></li>
     </ul>
   </nav>
   <div className="body-wrapper">
+  <header>
+  <div class="wrapper">
+  <h1>Amber Suratte</h1>
+  <h2>Front-End Developer // Web Designer</h2>
+</div>
+</header>
     {children}
     </div>
 <footer>

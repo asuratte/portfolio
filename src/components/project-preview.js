@@ -1,15 +1,19 @@
-import React from "react"
+import React from "react";
+import { Link } from 'gatsby';
+import Image from 'gatsby-image';
 
-const ProjectPreview = ({ slug, imageUrl, title, description}) => (
+const ProjectPreview = ({ slug, imageData, title, descriptionShort}) => (
     <article class="single-card">
-    <a href={`/${slug}/`}>
+      <Link to={`/${slug}/`}>
       <div class="card-img">
-        <img src={imageUrl} alt={title} />
+        <Image fluid={imageData} alt={title}/>
       </div>
       <div class="card-info">
     <h4 class="card-title">{title}</h4>
-    <p class="card-description">{description}</p>
+    <p class="card-description">{descriptionShort}</p>
       </div>
-    </a>
+    </Link>
     </article>
 );
+
+export default ProjectPreview;

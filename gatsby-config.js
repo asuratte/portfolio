@@ -6,6 +6,16 @@
 
 module.exports = {
   plugins: [
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'project',
+        path: 'src/data'
+      }
+    },
+    'gatsby-transformer-json',
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

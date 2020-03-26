@@ -55,7 +55,7 @@ html {
 }
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 a {
 	transition-duration: 0.5s;
@@ -65,9 +65,10 @@ a:hover {
 	transition-duration: 0.5s;
 }
 
-.wrapper{
+.wrapper, .project-wrapper {
   width: 80%;
   margin:0 auto;
+  max-width: 1200px;
 }
 p {
     line-height: 1.2;
@@ -208,23 +209,40 @@ a.social-links span {
 .body-wrapper {
   flex-grow: 1;
 }
-
+.back-main {
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  margin-top:2rem;
+    padding: 1rem 2rem;
+    background-color: #000;
+    width: auto;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+p.project-description {
+  margin: 1.5rem 0;
+  font-size: 1.25rem;
+}
 /* card css */
 
 .card-container {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .single-card {
-width: 350px;
-height: 350px;
-display: block;
-box-sizing: border-box;
-background-color: #000;
-color: #f9f9f9;
-margin-bottom: 1.25rem;
+  width: 100%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #ffffff;
+  margin: 0 0 1.25rem;
 }
 .single-card a {
 text-decoration: none;
@@ -233,24 +251,30 @@ height: 100%;
 
 }
 .card-img {
-height:210px;
 overflow:hidden;
+max-height: 300px;
 }
 .card-img img {
 width: 100%;
--webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
+-webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  transition: all 5s ease;
 }
 .single-card a:hover .card-img img {
-transform: scale(1.18);
+transform: scale(2);
+-webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  transition: all 5s ease;
 }
 .card-info {
 padding: 1rem;
 }
 .card-info >*{
-color:#f9f9f9;
+color:#ffffff;
 }
 .card-title {
 font-size: 1.25rem;
@@ -343,7 +367,9 @@ div.about-para p {
     background-color: #000;
     width: auto;
   }
-
+  .single-card {
+    width: 30%;
+  }
 }
 
 /* Large Desktop */
@@ -359,5 +385,8 @@ div.about-para p {
   }
 	span.overlay {
 		padding:1.5rem;
-	}
+  }
+  .single-card {
+    width: 30%;
+  }
 }

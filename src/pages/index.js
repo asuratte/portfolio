@@ -1,33 +1,56 @@
-import React from "react"
-import Layout from "../components/layout"
+import React from "react";
+import { graphql, useStaticQuery } from 'gatsby';
+import Layout from "../components/layout";
+import ProjectPreview from "../components/project-preview";
 
-export default () => (
+
+export default () => {
+const data = useStaticQuery(graphql `
+{
+  allProjectsJson {
+    edges {
+      node {
+        title
+        slug
+        descriptionShort        
+        image {
+          publicURL
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+}
+`);
+
+const projects = data.allProjectsJson.edges;
+
+return (
   <Layout>
-    <header>
-  <div class="wrapper">
-  <h1>Amber Suratte</h1>
-  <h2>Front-End Developer // Web Designer</h2>
-</div>
-</header>
 <main id="work-container">
   <div class="wrapper">
   <h3>My Work</h3>
   <div class="card-container">
-   {/* START Placeholder card  */}
-   {/* <article class="single-card">
-<a href="#">
-  <div class="card-img">
-    <img src="http://placekitten.com/800/600" alt="" />
-  </div>
-  <div class="card-info">
-    <h4 class="card-title">Title Goes Here</h4>
-    <p class="card-description">This is where the description goes.</p>
-  </div>
-</a>
-</article> */}
-{/* END Placeholder card  */}
 
+{projects.map(({ node: project }) =>{
+  const title = project.title;
+  const descriptionShort = project.descriptionShort;
+  const slug = project.slug;
+  const imageData = project.image.childImageSharp.fluid;
 
+  return (
+    <ProjectPreview
+    title={title}
+    descriptionShort={descriptionShort}
+    slug={slug}
+    imageData={imageData}
+    />
+  )
+})}
 
 
   </div>
@@ -63,4 +86,5 @@ export default () => (
 </div>
 </section>
   </Layout>
-)
+);
+};
