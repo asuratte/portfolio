@@ -5,6 +5,11 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Amber Suratte`,
+    description: `Front-End Developer // Web Designer`,
+    author: `asuratte`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-sharp`,
@@ -13,6 +18,12 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-161999249-1",
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -35,6 +46,8 @@ module.exports = {
           },
         ],
       },
-    }
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
   ],
 }

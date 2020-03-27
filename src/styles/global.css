@@ -243,13 +243,15 @@ p.project-description {
   background-color: #000;
   color: #ffffff;
   margin: 0 0 1.25rem;
+  box-shadow: #d5d3d3 0px 0px 5px;
+
 }
 .single-card a {
 text-decoration: none;
 height: 100%;
   display: block;
-
 }
+
 .card-img {
 overflow:hidden;
 max-height: 300px;
