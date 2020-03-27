@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'gh-pages',
-    repo: 'https://github.com/asuratte/ambersuratte.com.git',
+    repo: 'https://github.com/asuratte/portfolio.git',
   },
   () => {
     console.log('Deploy Complete!')
