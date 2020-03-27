@@ -12,7 +12,7 @@ projectsJson(slug: { eq: $slug }) {
   descriptionShort  
   image {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 1200) {
         ...GatsbyImageSharpFluid
       }
     }
