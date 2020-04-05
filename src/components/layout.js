@@ -5,17 +5,18 @@ class Application extends React.Component {
   render() {
     return (
       <div className="application">
-      <Helmet>
-<meta charSet="utf-8" />
-<title>Amber Suratte</title>
-</Helmet>
 </div>
     )
   }
 }
 export default ({ children }) => (
-
   <div class="site-wrapper">
+      <Helmet>
+  <meta charSet="utf-8" />
+  <title>Amber Suratte | Portfolio</title>
+  <meta name="title" content="Amber Suratte | Portfolio" />
+        <meta name="description" content="Amber Suratte's Web Design and Development Portfolio" />
+  </Helmet>
     <nav>
     <ul class="wrapper">
       <li><a href="/#work-container">My Work</a></li>
