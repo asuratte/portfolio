@@ -81,7 +81,7 @@ return (
   <h3>About Me</h3>
   <div class="about-para">
   <p>I'm a front-end developer, web designer, and digital marketer with over 12 years of experience. I currently work for American Hotel Register Company as a Sr. Front-End Developer. Check out <a href="https://www.linkedin.com/in/asuratte" target="_blank" rel="noopener noreferrer" title="LinkedIn">my LinkedIn profile</a> for a full list of my work experience and areas of expertise. You can find code samples on <a href="https://github.com/asuratte" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a> and <a href="https://codepen.io/asuratte/collections/public" target="_blank" rel="noopener noreferrer" title="CodePen">CodePen.</a></p>
-  <p>When I’m not working, I enjoy riding bikes, watching Star Trek, baking muffins, and looking at pictures of cats on the internet. I live in Woodstock, IL with my husband, Kyle, and our cat, Sprocket.</p>
+  <p>When I’m not working, I enjoy riding and racing bikes, watching Star Trek, baking muffins, and looking at pictures of cats on the internet. I live in Woodstock, IL with my husband, Kyle, and our cat, Sprocket.</p>
   </div>
 </div>
 </section>

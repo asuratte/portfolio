@@ -1,5 +1,12 @@
 [
 {
+    "title": "Web Component Builder",
+    "slug": "adshark",
+    "image": "./images/adshark.jpg",
+    "descriptionShort": "This was an Angular/Node.js web application made to streamline the creation of web components and emails.",
+    "descriptionLong": "I managed a team of interns and mid-level developers to complete this project. The objective was to streamline the creation of web components and HTML emails, with the aim of freeing up the developers to focus on revenue driving activities. The end users ranged from directors, marketing project managers, copywriters, designers, and developers. The finished product was an internal web application that pulled data from a project management system and formatted it into a designated HTML or impex template. The generated component or email could then be previewed in the app across 4 different breakpoints, and updated in both the app and project management system simultaneously. The production-ready code was then available to copy or download directly from the app. This app resulted in a 40 percent gain in efficiency for the developer team. My contributions included project management from concept to rollout, contributing JavaScript code, mentoring and managing workload of interns, creating a detailed project calendar and issue queue, creating extensive documentation, deploying on Windows IIS server, conducting user reviews, and assisting in training for the end users."
+},
+{
     "title": "230 West Coffee Launch Landing Page",
     "slug": "230-west-coffee-launch-landing-page",
     "image": "./images/AHR-230West-LP.jpg",
@@ -77,6 +84,20 @@
     "descriptionLong": "The previous version of the locations section on mobile involved scrolling through a long list of locations across every state. I improved upon this by adding a location selector feature built with JavaScript. Once the user selected their state, they were presented with a list of stores near them."
 },
 {
+    "title": "Apptical Website Redesign",
+    "slug": "apptical",
+    "image": "./images/Apptical.jpg",
+    "descriptionShort": "I designed, migrated content into, and built a custom theme for the Apptical website.",
+    "descriptionLong": "For this project I designed and built a new website for Apptical using Wordpress. I migrated their existing site content, identified needs for new content, designed the information architecture, configured web forms, and designed/built the site from wireframe to finished product. I then trained associates on making site updates, and worked with their IT department to deploy the new site."
+},
+{
+    "title": "Personalized Homepage Content with HubSpot",
+    "slug": "usp-personalization",
+    "image": "./images/USP-smart-homepage.jpg",
+    "descriptionShort": "These are two examples of the personalization I set up on US Patriot's homepage for different customer segments.",
+    "descriptionLong": "These were created and served using HubSpot smart content. We identified four segments to create custom experiences for, and designated one default experience for anonymous visitors. Visitors we had segment data for would see homepage content that was tailored to their specific needs."
+},
+{
     "title": "Exit Intent Overlay",
     "slug": "usp-exit-intent-popup",
     "image": "./images/exit-popup_full.jpg",
@@ -88,7 +109,7 @@
     "slug": "american-hotel-emails",
     "image": "./images/AHR-emails.jpg",
     "descriptionShort": "I designed these emails for various supplier marketing campaigns at American Hotel Register Company.",
-    "descriptionLong": "These emails were mocked up in Photoshop, coded, tested in Litmus, and imported into IBM Watson for sending."
+    "descriptionLong": "These emails were mocked up in Photoshop, coded, tested in Litmus, and imported into IBM Acoustic for sending."
 },
 {
     "title": "US Patriot Email Templates",
