@@ -1,3 +1,3 @@
-import "./src/styles/global.css"
+import "./src/styles/global.scss"
 // or:
-// require('./src/styles/global.css')
+// require('./src/styles/global.scss')
