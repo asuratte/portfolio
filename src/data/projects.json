@@ -28,6 +28,13 @@
     "descriptionLong": "The left screenshot was the control, and the right was the variation. The goal of the experiment was to increase revenue by getting products in front of users sooner. The variation ended up winning."
 },
 {
+    "title": "Responsive Email Development",
+    "slug": "responsive-email-development",
+    "image": "./images/responsive-email.jpg",
+    "descriptionShort": "This is an HTML email template that works across all major email clients.",
+    "descriptionLong": "Above, from left to right, it's shown in Outlook for Mac, Outlook for Windows, Gmail mobile app, and iOS Mail app. Fallbacks are in place for things like web fonts and gradients, so users in older/less forgiving email clients can still have a positive experience. This template was thoroughly tested in Litmus to ensure cross-client compatibility."
+},
+{
     "title": "404 Page Design",
     "slug": "404-landing-page",
     "image": "./images/AHR-404-LP.jpg",
@@ -35,7 +42,7 @@
     "descriptionLong": "An adaptation of this design is currently being used on the American Hotel website."
 },
 {
-    "title": "OTB Boots Homepage",
+    "title": "OTB Boots Site",
     "slug": "otb-boots-homepage",
     "image": "./images/OTB-Boots-Homepage.jpg",
     "descriptionShort": "This website was created to launch a new boot brand.",
