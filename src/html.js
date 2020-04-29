@@ -19,9 +19,11 @@ export default function HTML(props) {
         <div
           key={`body`}
           id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
+          dangerouslySetInnerHTML={{ __html: props.body,
+          }}
         />
         {props.postBodyComponents}
+      
       </body>
     </html>
   )

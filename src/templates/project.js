@@ -8,8 +8,12 @@ query($slug:String!)
 {
 projectsJson(slug: { eq: $slug }) {
   title
-  descriptionLong
+  descriptionLong1
+  descriptionLong2
+  descriptionLong3
   descriptionShort  
+  projectLink
+  projectLinkText
   image {
     childImageSharp {
       fluid(maxWidth: 1200) {
@@ -24,16 +28,24 @@ projectsJson(slug: { eq: $slug }) {
 const ProjectTemplate = ({ data }) => {
     const project = data.projectsJson;
     const title = project.title;
-    const descriptionLong = project.descriptionLong;
+    const descriptionLong1 = project.descriptionLong1;
+    const descriptionLong2 = project.descriptionLong2;
+    const descriptionLong3 = project.descriptionLong3;
     const descriptionShort = project.descriptionShort;
+    const projectLink = project.projectLink;
+    const projectLinkText = project.projectLinkText;
     const imageData = project.image.childImageSharp.fluid;
 
     return (
         <Layout>
             <Project 
             title={title}
-            descriptionLong={descriptionLong}
+            descriptionLong1={descriptionLong1}
+            descriptionLong2={descriptionLong2}
+            descriptionLong3={descriptionLong3}
             descriptionShort={descriptionShort}
+            projectLink={projectLink}
+            projectLinkText={projectLinkText}
             imageData={imageData}
             />
         </Layout>
