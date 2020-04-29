@@ -273,7 +273,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-decoration: none;
 }
 a.project-link:hover {
-  opacity: 70%;
+  background: linear-gradient(45deg,#ff0081,rgba(183,82,234,.56),#00d3ff);
+  -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   text-decoration: none;
 }
   /* card css */
