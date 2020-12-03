@@ -9,6 +9,21 @@
     "descriptionLong3": "My contributions included project management from concept to rollout, contributing JavaScript code, mentoring and managing workload of interns, creating a detailed project calendar and issue queue, creating extensive documentation, deploying on Windows IIS server, conducting user reviews, and assisting in training for the end users."
 },
 {
+    "title": "Spreadsheet Driven Deals Landing Page",
+    "slug": "deals-page",
+    "image": "./images/AHR-deals-spreadsheet-driven.jpg",
+    "descriptionShort": "This landing page is populated by JavaScript and a JSON feed from a Google Sheet.",
+    "descriptionLong1": "The purpose of this project was to enable all members of our small marketing team to update this deals page without developer assistance. They were provided a Google Sheet where they could enter image URLs, copy, links, and start/end dates for each offer, which would then instantly populate the page.",
+    "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data, desigining the offers to accommodate a combination of 1-2 images, headline, subheadline, and call to action, as well as serving the experience through Adobe Target."
+},
+{
+    "title": "Category Specific Product Recommendations",
+    "slug": "category-recommendations",
+    "image": "./images/AHR-category-specific-recommendations.jpg",
+    "descriptionShort": "These are two examples of a dynamic sitewide recommendations carousel that displays on category pages.",
+    "descriptionLong1": "I built an Adobe Target recommendations carousel that leveraged data layer variables to recommend relevant trending sale products on CLP and PLP pages. This involved writing JavaScript to determine if there were at least 3 products to show, developing the recommendation carousel template, defining criteria for product recommendation, and including page information in the Adobe Analytics tracking code for reporting."
+},
+{
     "title": "230 West Coffee Launch Landing Page",
     "slug": "230-west-coffee-launch-landing-page",
     "image": "./images/AHR-230West-LP.jpg",
@@ -18,6 +33,14 @@
     "projectLinkText": "View on AmericanHotel.com >"
 },
 {
+    "title": "Dynamic Email Template",
+    "slug": "dynamic-email-template",
+    "image": "./images/AHR-dynamic-email-template.jpg",
+    "descriptionShort": "This email template was built using Acoustic to enable marketers to build robust emails without developer support.",
+    "descriptionLong1": "I first worked with members of the marketing team to determine what features the template needed to have (product grids, hero image, call to action, etc.). I then built dynamic components for each element that are populated by the email list data file. Some of the components have logic built in (for showing different numbers of products, different logos, etc.).",
+    "descriptionLong2": "This template eliminated the need for one-off manually coded emails, which drastically increased the efficiency of our marketing team."
+},
+{
     "title": "1888 Mills Landing Page",
     "slug": "1888-mills-landing-page",
     "image": "./images/AHR-1888-Mills-LP.jpg",
@@ -25,6 +48,14 @@
     "descriptionLong1": "This landing page was mocked up by the supplier's design team, and provided to me for coding. I then adapted the design to fit within American Hotel brand standards, and coded it using Bootstrap as a base.",
     "projectLink": "https://www.americanhotel.com/1888-mills",
     "projectLinkText": "View on AmericanHotel.com >"
+},
+{
+    "title": "Reorder Email Template",
+    "slug": "re-email-template",
+    "image": "./images/AHR-dynamic-email-template.jpg",
+    "descriptionShort": "This email template was built using Acoustic to make it easy for customers to reorder.",
+    "descriptionLong1": "My contribution was designing and developing a dynamic component for the reorder table that would display information from the email list data file.",
+    "descriptionLong2": "This template took a lot of manual effort out of this monthly campaign, as all that needs to be done now is updating the data file before sending."
 },
 {
     "title": "OTB Boots Site",
