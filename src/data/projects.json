@@ -52,7 +52,7 @@
 {
     "title": "Reorder Email Template",
     "slug": "re-email-template",
-    "image": "./images/AHR-dynamic-email-template.jpg",
+    "image": "./images/AHR-reorder-email.jpg",
     "descriptionShort": "This email template was built using Acoustic to make it easy for customers to reorder.",
     "descriptionLong1": "My contribution was designing and developing a dynamic component for the reorder table that would display information from the email list data file.",
     "descriptionLong2": "This template took a lot of manual effort out of this monthly campaign, as all that needs to be done now is updating the data file before sending."
