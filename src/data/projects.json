@@ -1,14 +1,5 @@
 [
 {
-    "title": "Web Component Builder",
-    "slug": "adshark",
-    "image": "./images/adshark.jpg",
-    "descriptionShort": "This was an Angular/Node.js web application made to streamline the creation of web components and emails.",
-    "descriptionLong1": "I managed a team of interns and mid-level developers to complete this project. The objective was to streamline the creation of web components and HTML emails, with the aim of freeing up the developers to focus on revenue driving activities. The end users ranged from directors, marketing project managers, copywriters, designers, and developers.",
-    "descriptionLong2": "The finished product was an internal web application that pulled data from a project management system and formatted it into a designated HTML or impex template. The generated component or email could then be previewed in the app across 4 different breakpoints, and updated in both the app and project management system simultaneously. The production-ready code was then available to copy or download directly from the app. This app resulted in a 40 percent gain in efficiency for the developer team.",
-    "descriptionLong3": "My contributions included project management from concept to rollout, contributing JavaScript code, mentoring and managing workload of interns, creating a detailed project calendar and issue queue, creating extensive documentation, deploying on Windows IIS server, conducting user reviews, and assisting in training for the end users."
-},
-{
     "title": "Spreadsheet Driven Deals Landing Page",
     "slug": "deals-page",
     "image": "./images/AHR-deals-spreadsheet-driven.jpg",
@@ -22,6 +13,25 @@
     "image": "./images/AHR-category-specific-recommendations.jpg",
     "descriptionShort": "These are two examples of a dynamic sitewide recommendations carousel that displays on category pages.",
     "descriptionLong1": "I built an Adobe Target recommendations carousel that leveraged data layer variables to recommend relevant trending sale products on CLP and PLP pages. This involved writing JavaScript to determine if there were at least 3 products to show, developing the recommendation carousel template, defining criteria for product recommendation, and including page information in the Adobe Analytics tracking code for reporting."
+},
+{
+    "title": "Notify Me When Available",
+    "slug": "notify-me",
+    "image": "./images/AHR-notify-me.jpg",
+    "descriptionShort": "This feature allows users to sign up to be notified when a product is back in stock.",
+    "descriptionLong1": "For this project I was tasked with creating an experience where customers could sign up to be notified when an item is back in stock. First, I wrote JavaScript to target the out of stock items on the PLP and Search pages and inserted a \"Notify Me\" button in place of the Add to Cart button. Next, I inserted HTML into the page for the modal window and form that would be triggered by the button.",
+    "descriptionLong2": "I set up a click handler for the button that would collect data from our data layer and the DOM, such as User ID and Product Title, and insert it into the form's hidden fields. I also used the data layer to populate the product name into the modal heading. Finally, I added an AJAX request that submits the form to a database hosted by our ESP (Acoustic), so we can send triggered emails when something is back in stock. The script for this experience was injected into the site using Adobe Target.",
+    "projectLink": "https://codepen.io/asuratte/pen/bGpzxVZ",
+    "projectLinkText": "View on CodePen >"
+},
+{
+    "title": "Web Component Builder",
+    "slug": "adshark",
+    "image": "./images/adshark.jpg",
+    "descriptionShort": "This was an Angular/Node.js web application made to streamline the creation of web components and emails.",
+    "descriptionLong1": "I managed a team of interns and mid-level developers to complete this project. The objective was to streamline the creation of web components and HTML emails, with the aim of freeing up the developers to focus on revenue driving activities. The end users ranged from directors, marketing project managers, copywriters, designers, and developers.",
+    "descriptionLong2": "The finished product was an internal web application that pulled data from a project management system and formatted it into a designated HTML or impex template. The generated component or email could then be previewed in the app across 4 different breakpoints, and updated in both the app and project management system simultaneously. The production-ready code was then available to copy or download directly from the app. This app resulted in a 40 percent gain in efficiency for the developer team.",
+    "descriptionLong3": "My contributions included project management from concept to rollout, contributing JavaScript code, mentoring and managing workload of interns, creating a detailed project calendar and issue queue, creating extensive documentation, deploying on Windows IIS server, conducting user reviews, and assisting in training for the end users."
 },
 {
     "title": "230 West Coffee Launch Landing Page",
