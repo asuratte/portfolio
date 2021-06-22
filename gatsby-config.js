@@ -32,21 +32,16 @@ module.exports = {
       }
     },
     'gatsby-transformer-json',
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`400`, `700`]
-          },
-          {
-            family: `Lato`,
-            variants: [`400`, `700`, `400italic`, `700italic`]
-          },
-        ],
-      },
-    },
+{
+  resolve: `gatsby-plugin-google-fonts`,
+  options: {
+    fonts: [
+      `Montserrat\:400,700`,
+      `Lato\:400,700,400italic,700italic` 
+    ],
+    display: 'swap'
+  }
+},
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
