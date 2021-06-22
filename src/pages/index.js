@@ -71,9 +71,10 @@ return (
     <li>Web Content Administration</li>
     <li>Website Optimization</li>
     <li>Conversion Rate Optimization</li>
-    <li>A/B, Multivariate &amp; Split URL Testing</li>
+    <li>A/B/n &amp; Multivariate Testing</li>
     <li>Cross-Browser/Platform/Device Testing</li>
     <li>Version Control</li>
+    <li>Unit Testing</li>
   </ul>
   </div>
 </section>
@@ -81,8 +82,8 @@ return (
   <div class="wrapper">
   <h3>About Me</h3>
   <div class="about-para">
-  <p>I'm a front-end developer, web designer, and digital marketer with over 12 years of experience. I currently work for American Hotel Register Company as a Sr. Front-End Developer. Check out <a href="https://www.linkedin.com/in/asuratte" target="_blank" rel="noopener noreferrer" title="LinkedIn">my LinkedIn profile</a> for a full list of my work experience and areas of expertise. You can find code samples on <a href="https://github.com/asuratte" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a> and <a href="https://codepen.io/asuratte/collections/public" target="_blank" rel="noopener noreferrer" title="CodePen">CodePen.</a></p>
-  <p> I'm currently pursuing a Master of Science in Applied Computer Science from the University of West Georgia. When I’m not working or studying, I enjoy riding bikes, watching Star Trek, baking muffins, and looking at pictures of cats on the internet. I live in Woodstock, IL with my husband, Kyle, and our cat, Sprocket.</p>
+  <p>I’m an experienced Front-End Web Developer with a strong background in design. I'm particularly interested in solving business problems with code, improving web accessibility and usability, and implementing processes to make teams operate more efficiently. Check out <a href="https://www.linkedin.com/in/asuratte" target="_blank" rel="noopener noreferrer" title="LinkedIn">my LinkedIn profile</a> for a full list of my work experience and areas of expertise. You can find code samples on <a href="https://github.com/asuratte" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a> and <a href="https://codepen.io/asuratte/collections/public" target="_blank" rel="noopener noreferrer" title="CodePen">CodePen.</a></p>
+  <p> I'm currently pursuing a Master of Science in Applied Computer Science from the University of West Georgia, with a focus on software engineering. When I’m not working or studying, I enjoy riding bikes, watching Star Trek, baking muffins, and looking at pictures of cats on the internet. I live in Woodstock, IL with my husband, Kyle, and our cat, Sprocket.</p>
   </div>
 </div>
 </section>
