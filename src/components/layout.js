@@ -1,14 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-class Application extends React.Component {
-  render() {
-    return (
-      <div className="application">
-</div>
-    )
-  }
-}
 export default ({ children }) => (
   <div class="site-wrapper">
       <Helmet>
@@ -38,10 +30,10 @@ export default ({ children }) => (
     <p> &copy; {new Date().getFullYear()}{" "} Amber Suratte
     </p>
 <p>
-  <a href="https://www.linkedin.com/in/asuratte/" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on LinkedIn"><span class="fab fa-linkedin"></span></a>
-  <a href="https://github.com/asuratte" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on Github"><span class="fab fa-github"></span></a>
-  <a href="https://codepen.io/asuratte/collections/public" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on Codepen"><span class="fab fa-codepen"></span></a>
-  <a href="https://www.instagram.com/amber.suratte/" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on Instagram"><span class="fab fa-instagram"></span></a>
+  <a href="https://www.linkedin.com/in/asuratte/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on LinkedIn"><span class="fab fa-linkedin"></span></a>
+  <a href="https://github.com/asuratte" aria-label="GitHub" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on Github"><span class="fab fa-github"></span></a>
+  <a href="https://codepen.io/asuratte/collections/public" aria-label="Codepen" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on Codepen"><span class="fab fa-codepen"></span></a>
+  <a href="https://www.instagram.com/amber.suratte/" aria-label="Instagram" target="_blank" rel="noopener noreferrer" class="social-links" title="Amber Suratte on Instagram"><span class="fab fa-instagram"></span></a>
   </p>
 </div>
 </footer>
