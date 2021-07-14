@@ -1,5 +1,25 @@
 [
 {
+    "title": "Brand-Specific Product Recommendations",
+    "slug": "brand-specific-recommendations",
+    "image": "./images/AHR-accelerator-recs.jpg",
+    "descriptionShort": "These product recommendation carousels are generated based on customer data for a highly personalized experience.",
+    "descriptionLong1": "The purpose of this project was to get relevant products in front of authenticated customers in an ecommerce environment where brand mandated, brand recommended, and restricted products need to be taken into consideration on a per-customer level. This was accomplished in collaboration with members of the marketing, ecommerce, and IT teams to build a service which generates a list of recommended products per customer based on specific criteria and logic and outputs it to cloud-hosted JSON files.",
+    "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data, developing the template for the recommendation carousel, dynamically appending tracking code, and serving the script on specific site locations through Adobe Target.",
+    "projectLink": "https://codepen.io/asuratte/pen/yLMxGWK",
+    "projectLinkText": "View on CodePen >"
+},
+{
+    "title": "Spreadsheet Driven Banner Ads",
+    "slug": "spreadsheet-banner-ads",
+    "image": "./images/AHR-spreadsheet-banners.jpg",
+    "descriptionShort": "This project streamlined the running of weekly banner ads, enabling the marketing team to own the process.",
+    "descriptionLong1": "The purpose of this project was to enable all members of our small marketing team to run weekly ads on multiple areas of the site without developer assistance. They were provided a Google Sheet where they could enter image URLs, copy, links, and start/end dates for each offer, as well as the location on the site, which customer groups should be included/excluded, and whether it should show for unauthenticated or authenticated users. The marketing team could also control the design of the different banner elements via provided utility classes.",
+    "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data from the Google sheet, developing the banner template to accommodate a combination of 1-2 images, headline, overline, subheadline, and call to action, as well as serving the experience through Adobe Target.",
+    "projectLink": "https://codepen.io/asuratte/pen/OJNaxLb",
+    "projectLinkText": "View on CodePen >"
+},
+{
     "title": "Spreadsheet Driven Deals Landing Page",
     "slug": "deals-page",
     "image": "./images/AHR-deals-spreadsheet-driven.jpg",
@@ -32,6 +52,13 @@
     "descriptionLong1": "I managed a team of interns and mid-level developers to complete this project. The objective was to streamline the creation of web components and HTML emails, with the aim of freeing up the developers to focus on revenue driving activities. The end users ranged from directors, marketing project managers, copywriters, designers, and developers.",
     "descriptionLong2": "The finished product was an internal web application that pulled data from a project management system and formatted it into a designated HTML or impex template. The generated component or email could then be previewed in the app across 4 different breakpoints, and updated in both the app and project management system simultaneously. The production-ready code was then available to copy or download directly from the app. This app resulted in a 40 percent gain in efficiency for the developer team.",
     "descriptionLong3": "My contributions included project management from concept to rollout, contributing JavaScript code, mentoring and managing workload of interns, creating a detailed project calendar and issue queue, creating extensive documentation, deploying on Windows IIS server, conducting user reviews, and assisting in training for the end users."
+},
+{
+    "title": "Open Invoice Alert",
+    "slug": "open-invoice",
+    "image": "./images/AHR-open-invoice.jpg",
+    "descriptionShort": "This is an alert that shows once per session for users that currently have an unpaid invoice.",
+    "descriptionLong1": "I worked with developers in IT to create a service which generates a list of customers that have an open invoice. I then consumed the JSON data via their API and wrote a script that checks it against the logged in user's customer ID, and shows the banner if they have an open invoice. The script was served through Adobe Target."
 },
 {
     "title": "230 West Coffee Launch Landing Page",

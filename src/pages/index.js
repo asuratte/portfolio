@@ -74,7 +74,8 @@ return (
     <li>A/B/n &amp; Multivariate Testing</li>
     <li>Cross-Browser/Platform/Device Testing</li>
     <li>Version Control</li>
-    <li>Unit Testing</li>
+    <li>Unit &amp; E2E Testing</li>
+    <li>Test- &amp; Behavior-Driven Development</li>
   </ul>
   </div>
 </section>
