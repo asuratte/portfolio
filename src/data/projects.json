@@ -8,6 +8,7 @@
     "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data, developing the template for the recommendation carousel, dynamically appending tracking code, and serving the script on specific site locations through Adobe Target.",
     "projectLink": "https://codepen.io/asuratte/pen/yLMxGWK",
     "projectLinkText": "View on CodePen >",
+    "previewCta": "See Details >",
     "featured": true,
     "projectType": "professional"
 },
@@ -20,6 +21,7 @@
     "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data from the Google sheet, developing the banner template to accommodate a combination of 1-2 images, headline, overline, subheadline, and call to action, as well as serving the experience through Adobe Target.",
     "projectLink": "https://codepen.io/asuratte/pen/OJNaxLb",
     "projectLinkText": "View on CodePen >",
+    "previewCta": "See Details >",
     "featured": true,
     "projectType": "professional"
 },
@@ -30,6 +32,7 @@
     "descriptionShort": "This landing page is populated by JavaScript and a JSON feed from a Google Sheet.",
     "descriptionLong1": "The purpose of this project was to enable all members of our small marketing team to update this deals page without developer assistance. They were provided a Google Sheet where they could enter image URLs, copy, links, and start/end dates for each offer, which would then instantly populate the page.",
     "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data, desigining the offers to accommodate a combination of 1-2 images, headline, subheadline, and call to action, as well as serving the experience through Adobe Target.",
+    "previewCta": "See Details >",
     "featured": true,
     "projectType": "professional"
 },
@@ -39,6 +42,7 @@
     "image": "./images/AHR-category-specific-recommendations.jpg",
     "descriptionShort": "These are two examples of a dynamic sitewide recommendations carousel that displays on category pages.",
     "descriptionLong1": "I built an Adobe Target recommendations carousel that leveraged data layer variables to recommend relevant trending sale products on CLP and PLP pages. This involved writing JavaScript to determine if there were at least 3 products to show, developing the recommendation carousel template, defining criteria for product recommendation, and including page information in the Adobe Analytics tracking code for reporting.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -51,6 +55,7 @@
     "descriptionLong2": "I set up a click handler for the button that would collect data from our data layer and the DOM, such as User ID and Product Title, and insert it into the form's hidden fields. I also used the data layer to populate the product name into the modal heading. Finally, I added an AJAX request that submits the form to a database hosted by our ESP (Acoustic), so we can send triggered emails when something is back in stock. The script for this experience was injected into the site using Adobe Target.",
     "projectLink": "https://codepen.io/asuratte/pen/bGpzxVZ",
     "projectLinkText": "View on CodePen >",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -62,6 +67,7 @@
     "descriptionLong1": "I managed a team of interns and mid-level developers to complete this project. The objective was to streamline the creation of web components and HTML emails, with the aim of freeing up the developers to focus on revenue driving activities. The end users ranged from directors, marketing project managers, copywriters, designers, and developers.",
     "descriptionLong2": "The finished product was an internal web application that pulled data from a project management system and formatted it into a designated HTML or impex template. The generated component or email could then be previewed in the app across 4 different breakpoints, and updated in both the app and project management system simultaneously. The production-ready code was then available to copy or download directly from the app. This app resulted in a 40 percent gain in efficiency for the developer team.",
     "descriptionLong3": "My contributions included project management from concept to rollout, contributing JavaScript code, mentoring and managing workload of interns, creating a detailed project calendar and issue queue, creating extensive documentation, deploying on Windows IIS server, conducting user reviews, and assisting in training for the end users.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -71,6 +77,7 @@
     "image": "./images/AHR-open-invoice.jpg",
     "descriptionShort": "This is an alert that shows once per session for users that currently have an unpaid invoice.",
     "descriptionLong1": "I worked with developers in IT to create a service which generates a list of customers that have an open invoice. I then consumed the JSON data via their API and wrote a script that checks it against the logged in user's customer ID, and shows the banner if they have an open invoice. The script was served through Adobe Target.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -82,6 +89,7 @@
     "descriptionLong1": "These landing pages were designed in Photoshop, and coded using Bootstrap as a base.",
     "projectLink": "https://www.americanhotel.com/230-west-coffee",
     "projectLinkText": "View on AmericanHotel.com >",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -92,6 +100,7 @@
     "descriptionShort": "This email template was built using Acoustic to enable marketers to build robust emails without developer support.",
     "descriptionLong1": "The goal for this project was to enable the wider marketing team to build a variety of emails without the help of a developer. The content in this Acoustic email template is populated from a data file containing the contacts, brand, domain name, products, pricing, copy, image URLs, etc. Depending on what is filled in inside of the data file, this template can produce emails with a variety of layouts including 2x5  or 3x4 product grids,   hero image and copy only, or text-based emails.",
     "descriptionLong2": "The template is configured so that if a field is left blank, it will not show in the email. For example, if a 2x5 product grid is selected, it can have between 1 and 10 products. The template also allows for marketing to customers from all business segments by including a dynamic header, footer, and tracking links that update based on brand association.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -103,6 +112,7 @@
     "descriptionLong1": "This landing page was mocked up by the supplier's design team, and provided to me for coding. I then adapted the design to fit within American Hotel brand standards, and coded it using Bootstrap as a base.",
     "projectLink": "https://www.americanhotel.com/1888-mills",
     "projectLinkText": "View on AmericanHotel.com >",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -112,6 +122,7 @@
     "image": "./images/AHR-reorder-email.jpg",
     "descriptionShort": "The goal for this project was to make it easy for customers to reorder previous purchases.",
     "descriptionLong1": "This was our first venture into automated email marketing. Data flows from our e-commerce site into a database in Acoustic, and it's populated into the template using variables for the order number, customer name, purchase date, total, and reorder link. A grid of previously purchased products is also featured.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -123,6 +134,7 @@
     "descriptionLong1": "My role on this project was to create branding guidelines, design the website theme, and build the site. I first met with stakeholders to gather info, created a mood board, and developed that into a full style guide. Next, I gathered requirements for the site architecture and features, and translated that into wireframes. I went with a mobile-first approach, to ensure the site would be usable on any device. I then created mockups in Adobe XD, going with a bold, high-contrast design to match the branding.",
     "descriptionLong2": "Once a design was decided on, I was tasked with choosing a CMS. I chose Wordpress, as lots of flexibility was needed for this still-in-development brand. I chose a base theme that would allow for last-minute layout customizations. I then created a child theme and customized the theme to match the approved mockups.",
     "descriptionLong3": "The final pre-launch tasks included cross-browser and cross-device testing, adding Google Analytics and Google Tag Manager, setting up Webmaster Tools, and adding an SSL certificate.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -134,6 +146,7 @@
     "descriptionLong1": "Above, from left to right, it's shown in Outlook for Mac, Outlook for Windows, Gmail mobile app, and iOS Mail app. Fallbacks are in place for things like web fonts and gradients, so users in older/less forgiving email clients can still have a positive experience. This template was thoroughly tested in Litmus to ensure cross-client compatibility.",
     "projectLink": "https://codepen.io/asuratte/pen/OJVKmoE",
     "projectLinkText": "View on CodePen >",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -143,6 +156,7 @@
     "image": "./images/AHR-ShopByCategory-AB-Test.jpg",
     "descriptionShort": "This was an experiment I set up on the homepage using Adobe Target.",
     "descriptionLong1": "The left screenshot was the control, and the right was the variation. The goal of the experiment was to increase revenue by getting products in front of users sooner. The variation ended up winning.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -152,6 +166,7 @@
     "image": "./images/USP-Mobile-MVT-Test.jpg",
     "descriptionShort": "I ran this test on the mobile version of the US Patriot checkout page. It was set up using Google Optimize.",
     "descriptionLong1": "The primary goal of this test was to decrease the bounce rate on mobile. The secondary goal was to increase the conversion rate. While creating this test, I analyzed the control page and found areas for improvement. I ended up with 64 total variations tested, with the winner being shown on the right in the image above.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -161,6 +176,7 @@
     "image": "./images/USP-Homepage-AB-Test.jpg",
     "descriptionShort": "I ran this test on the mobile version of the US Patriot homepage. It was set up using Google Optimize.",
     "descriptionLong1": "The screenshot on the left was the control, the middle screenshot was variation 1, and the right screenshot was variation 2. Variation 2 was the winner, with the most clicks on the sub-category links.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -170,6 +186,7 @@
     "image": "./images/Brew-Chew-LP.jpg",
     "descriptionShort": "I designed and built this theme for an e-commerce site promoting a new brand.",
     "descriptionLong1": "This custom e-commerce site theme was developed using Stencil CLI for the BigCommerce platform.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -181,6 +198,7 @@
     "descriptionLong1": "An adaptation of this design is currently being used on the American Hotel website.",
     "projectLink": "https://www.americanhotel.com/404",
     "projectLinkText": "View on AmericanHotel.com >",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -190,6 +208,7 @@
     "image": "./images/USPMidLevelCatPage.jpg",
     "descriptionShort": "For this test I created a mid-level category page, to go in between the CLP and PLP.",
     "descriptionLong1": "The hypothesis for this test was that if users were able to drill down to the boot they wanted before being presented with the full PLP, they'd be more likely to add a pair of boots to their cart. That hypothesis was proven false by this test. The custom-coded carousels were made using the Slick slider plugin.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -199,6 +218,7 @@
     "image": "./images/SBT-Site-Redesign.jpg",
     "descriptionShort": "I redesigned and developed a custom BigCommerce theme for an existing e-commerce site.",
     "descriptionLong1": "The left screenshot is the old website. The right screenshot is the redesigned version. I built a custom BigCommerce Blueprint theme for this project. The goal was to give the brand a more modern look and feel. I also created an updated logo design and style guide to go with the new website theme.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -208,6 +228,7 @@
     "image": "./images/usp-mobile-locations-flow.jpg",
     "descriptionShort": "I improved the user experience on mobile for users trying to get store location information.",
     "descriptionLong1": "The previous version of the locations section on mobile involved scrolling through a long list of locations across every state. I improved upon this by adding a location selector feature built with JavaScript. Once the user selected their state, they were presented with a list of stores near them.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -219,6 +240,7 @@
     "descriptionLong1": "For this project I designed and built a new website for Apptical using Wordpress. I migrated their existing site content, identified needs for new content, designed the information architecture, configured web forms, and designed/built the site from wireframe to finished product. I then trained associates on making site updates, and worked with their IT department to deploy the new site.",
     "projectLink": "https://www.apptical.com/",
     "projectLinkText": "View on Apptical.com >",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -228,6 +250,7 @@
     "image": "./images/USP-smart-homepage.jpg",
     "descriptionShort": "These are two examples of the personalization I set up on US Patriot's homepage for different customer segments.",
     "descriptionLong1": "These were created and served using HubSpot smart content. We identified four segments to create custom experiences for, and designated one default experience for anonymous visitors. Visitors we had segment data for would see homepage content that was tailored to their specific needs.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -237,6 +260,7 @@
     "image": "./images/exit-popup_full.jpg",
     "descriptionShort": "This was one of many on-site remarketing overlays I designed and built for US Patriot.",
     "descriptionLong1": "These were created and scheduled using JustUno.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -246,6 +270,7 @@
     "image": "./images/AHR-emails.jpg",
     "descriptionShort": "I designed these emails for various supplier marketing campaigns at American Hotel Register Company.",
     "descriptionLong1": "These emails were mocked up in Photoshop, coded, tested in Litmus, and imported into IBM Acoustic for sending.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -255,6 +280,7 @@
     "image": "./images/usp-emails_full.jpg",
     "descriptionShort": "I designed, built and tested several email templates for use in HubSpot and MailChimp.",
     "descriptionLong1": "These were then used by the design team to create emails without the need for custom code.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 },
@@ -264,6 +290,7 @@
     "image": "./images/Fleetmatics-infographic.jpg",
     "descriptionShort": "I designed this infographic as a visual representation of Fleetmatics' annual Fleet Beat report.",
     "descriptionLong1": "For this project I was given a word document with all of the facts that needed to be called out. I then created a visual representation for all of them, simplifying them to fit into an infographic for social media. This was designed in Adobe Illustrator.",
+    "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
 } 
