@@ -9,7 +9,7 @@ import About from "../components/about";
 export default () => {
 const data = useStaticQuery(graphql `
 {
-  allProjectsJson {
+  allProjectsJson ( filter: { featured:  { eq: true } }) {
     edges {
       node {
         title
@@ -23,6 +23,8 @@ const data = useStaticQuery(graphql `
             }
           }
         }
+        featured
+        projectType
       }
     }
   }
