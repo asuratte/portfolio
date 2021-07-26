@@ -11,7 +11,7 @@ const ProjectPreview = ({ slug, imageData, title, descriptionShort, previewCta})
       <div class="card-info">
     <h4 class="card-title">{title}</h4>
     <p class="card-description">{descriptionShort}</p>
-    <a class="card-cta" href="">{previewCta}</a>
+    <button class="card-cta">{previewCta}</button>
     </div>
     </Link>
     </article>

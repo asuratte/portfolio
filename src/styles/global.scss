@@ -287,7 +287,7 @@ a.project-link:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   
   .single-card {
@@ -297,7 +297,7 @@ a.project-link:hover {
     box-sizing: border-box;
     background-color: #000;
     color: #ffffff;
-    margin: 0 0 1.25rem;
+    margin: .75rem 0 1.25rem;
     box-shadow: #d5d3d3 0px 0px 5px;
   
     a {
@@ -349,25 +349,29 @@ a.project-link:hover {
     font-size: 1rem;
   }
 
-  a.card-cta {
-    background: -webkit-linear-gradient(45deg, #00d3ff, rgba(183, 82, 234, 0.56), #ff0081);
+  button.card-cta {
+    background: -webkit-linear-gradient(45deg, #00d3ff, #d799f7, #ff0081);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background: -o-linear-gradient(transparent, transparent);
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.15rem;
     text-decoration: none;
     margin-top: 1rem;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: 0;
+    padding: 0;
   }
 
-  a.card-cta:hover, .single-card a:hover a.card-cta {
-    background: -webkit-linear-gradient(45deg,#ff0081,rgba(183,82,234,.56),#00d3ff);
+  button.card-cta:hover, .single-card a:hover button.card-cta {
+    background: -webkit-linear-gradient(45deg,#ff0081,#d799f7,#00d3ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background: -o-linear-gradient(transparent, transparent);
     text-decoration: none;
+    cursor: pointer;
   }
   
   /* Large Mobile and Up*/
@@ -471,7 +475,7 @@ a.project-link:hover {
     }
   
     .single-card {
-      width: 30%;
+      width: 31%;
     }
   }
   
@@ -495,6 +499,6 @@ a.project-link:hover {
     }
   
     .single-card {
-      width: 30%;
+      width: 31%;
     }
   }
