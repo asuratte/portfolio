@@ -12,9 +12,9 @@ export default ({ children }) => (
   </Helmet>
     <nav>
     <ul class="wrapper">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/professional-work">Professional Work</Link></li>
-      <li><Link to="/student-work">Student Work</Link></li>
+      <li><Link to="/" activeClassName="nav-active">Home</Link></li>
+      <li><Link to="/professional-work" activeClassName="nav-active">Professional Work</Link></li>
+      <li><Link to="/student-work" activeClassName="nav-active">Student Work</Link></li>
     </ul>
   </nav>
   <div className="body-wrapper">
