@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { Link } from 'gatsby';
 
 export default ({ children }) => (
   <div class="site-wrapper">
@@ -11,9 +12,9 @@ export default ({ children }) => (
   </Helmet>
     <nav>
     <ul class="wrapper">
-      <li><a href="/#work-container">My Work</a></li>
-      <li><a href="/#skills-container">My Skills</a></li>
-      <li><a href="/#about-container">About Me</a></li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/professional-work">Professional Work</Link></li>
+      <li><Link to="/student-work">Student Work</Link></li>
     </ul>
   </nav>
   <div className="body-wrapper">

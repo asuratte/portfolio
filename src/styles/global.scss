@@ -351,9 +351,6 @@ a.project-link:hover {
   
   /* Large Mobile and Up*/
   @media screen and (min-width: 550px) {
-    nav ul {
-      flex-direction: row;
-    }
   
     #work-container li {
       width: 45%;
@@ -381,7 +378,8 @@ a.project-link:hover {
     nav li {
       margin: .25rem auto;
       padding: 1rem 1rem;
-      width: auto;
+      width: 100%;
+      background-color: #000;
     }
   
     span.overlay {
@@ -391,6 +389,7 @@ a.project-link:hover {
   
   /* Tablet and Up */
   @media screen and (min-width: 681px) {
+
     html {
       font-size: 16px;
     }
@@ -404,8 +403,9 @@ a.project-link:hover {
   @media screen and (min-width: 681px) and (max-width: 980px) {
     nav li {
       margin: .25rem auto;
-      padding: 1rem 2rem;
-      width: auto;
+      padding: 1rem 1rem;
+      width: 100%;
+      background-color: #000;
     }
   
     span.overlay {
@@ -415,6 +415,11 @@ a.project-link:hover {
   
   /* Small Desktop and Up */
   @media screen and (min-width: 981px) {
+
+    nav ul {
+      flex-direction: row;
+    }
+    
     #work-container li {
       width: 30%;
     }
@@ -433,7 +438,7 @@ a.project-link:hover {
   @media screen and (min-width: 981px) and (max-width: 1500px) {
     nav {
       ul {
-        justify-content: flex-end;
+        justify-content: center;
       }
   
       li {
@@ -453,7 +458,7 @@ a.project-link:hover {
   @media screen and (min-width: 1501px) {
     nav {
       ul {
-        justify-content: flex-end;
+        justify-content: center;
       }
   
       li {
