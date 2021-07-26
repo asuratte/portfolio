@@ -293,5 +293,43 @@
     "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
-} 
+},
+{
+    "title": "Pig: An Interactive Dice Game",
+    "slug": "pig",
+    "image": "./images/uwg-6910-pig.jpg",
+    "descriptionShort": "This dice game application was built using Java and JavaFX.",
+    "descriptionLong1": "The purpose of this project was to demonstrate the computer science concepts I'd learned in the two previous semesters. I started by researching the game and creating a user guide website. Next, I inherited some non-functional starter code which I finished developing in order to get to the minimum viable product. After that, I began iteratively enhancing the app and expanding its functionality. I added features like a menu system with keyboard shortcuts, a personalized user interface, and different gameplay strategies for the computer player.",
+    "descriptionLong2": "Concepts covered included the MVC pattern, Observer pattern, Strategy Design pattern, refactoring, JUnit testing, and Behavior Driven Development. A link to an in-depth technical document describing the application development process can be found below.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://drive.google.com/file/d/1FDxlGE6Ve96cgUCdwlJxApBYHFZbpg4Q/view?usp=sharing",
+    "projectLinkText": "View Technical Document >"
+},
+{
+    "title": "Resistance Calculator",
+    "slug": "resistance",
+    "image": "./images/uwg-6261-resistance.jpg",
+    "descriptionShort": "This single-page web application was built with Angular and deployed using Docker and Jenkins.",
+    "descriptionLong1": "The purpose of this project was to demonstrate proficiency with Angular, unit testing, and end-to-end testing, as well as testing and deploying web applications using Docker and Jenkins. The application design and functionality was kept intentionally simple, as the majority of the project focused on learning Docker and Jenkins.",
+    "descriptionLong2": "The application calculates the resistance of a 5-band resistor based on the band colors. I started by building a stub Angular application using Angular CLI, and configuring Karma and Protractor for unit testing and e2e testing. Next, I built a Jenkinsfile and Dockerfile to configure those tools for testing and later deployment. I then created an Angular component to house the calculator interface, as well as a service which performed the calculations and returned the results. The application was fully unit- and e2e-tested, with frequent Jenkins builds.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student"
+},
+{
+    "title": "Tournament Brackets",
+    "slug": "brackets",
+    "image": "./images/uwg-6261-brackets.jpg",
+    "descriptionShort": "This single-page web application was built with Angular and tested with Karma and Protractor.",
+    "descriptionLong1": "The purpose of this project was to learn how to create a single-page application using Angular, gain further experience with testing, and conduct a usability study. The application allows users to enter up to 8 contestants for a tournament and keep track of winners for each round as well as an overall winner.",
+    "descriptionLong2": "Topics covered included end-to-end testing with Protractor, writing helper functions and refactoring e2e tests, Angular routing, and writing a service to carry data from page to page in a single-page application. After development, a usability study was conducted to determine areas for improvement and test for bugs.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://drive.google.com/file/d/1wLspn_bCb4g_f9FllTiqRSF7-dKVhJ5-/view?usp=sharing",
+    "projectLinkText": "View Usability Testing Report >"
+    
+}
 ]
