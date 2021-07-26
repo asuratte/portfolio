@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 
-const ProjectPreview = ({ slug, imageData, title, descriptionShort}) => (
+const ProjectPreview = ({ slug, imageData, title, descriptionShort, previewCta}) => (
     <article class="single-card">
       <Link to={`/${slug}/`}>
       <div class="card-img">
@@ -11,7 +11,8 @@ const ProjectPreview = ({ slug, imageData, title, descriptionShort}) => (
       <div class="card-info">
     <h4 class="card-title">{title}</h4>
     <p class="card-description">{descriptionShort}</p>
-      </div>
+    <a class="card-cta" href="">{previewCta}</a>
+    </div>
     </Link>
     </article>
 );

@@ -68,7 +68,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     transition-duration: 0.5s;
   
     &:hover {
-      opacity: 0.8;
+      opacity: 0.9;
       transition-duration: 0.5s;
     }
   }
@@ -347,6 +347,27 @@ a.project-link:hover {
   
   .card-description {
     font-size: 1rem;
+  }
+
+  a.card-cta {
+    background: -webkit-linear-gradient(45deg, #00d3ff, rgba(183, 82, 234, 0.56), #ff0081);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background: -o-linear-gradient(transparent, transparent);
+    font-weight: 900;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+
+  a.card-cta:hover, .single-card a:hover a.card-cta {
+    background: -webkit-linear-gradient(45deg,#ff0081,rgba(183,82,234,.56),#00d3ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background: -o-linear-gradient(transparent, transparent);
+    text-decoration: none;
   }
   
   /* Large Mobile and Up*/

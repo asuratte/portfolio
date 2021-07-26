@@ -14,7 +14,8 @@ const data = useStaticQuery(graphql `
       node {
         title
         slug
-        descriptionShort        
+        descriptionShort   
+        previewCta     
         image {
           publicURL
           childImageSharp {
@@ -45,6 +46,7 @@ return (
   const descriptionShort = project.descriptionShort;
   const slug = project.slug;
   const imageData = project.image.childImageSharp.fluid;
+  const previewCta = project.previewCta;
 
   return (
     <ProjectPreview
@@ -52,6 +54,7 @@ return (
     descriptionShort={descriptionShort}
     slug={slug}
     imageData={imageData}
+    previewCta={previewCta}
     />
   )
 })}

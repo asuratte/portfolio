@@ -2,8 +2,6 @@ import React from "react";
 import { graphql, useStaticQuery } from 'gatsby';
 import Layout from "../components/layout";
 import ProjectPreview from "../components/project-preview";
-import Skills from "../components/skills";
-import About from "../components/about";
 
 
 export default () => {
@@ -14,7 +12,8 @@ const data = useStaticQuery(graphql `
       node {
         title
         slug
-        descriptionShort        
+        descriptionShort   
+        previewCta     
         image {
           publicURL
           childImageSharp {
@@ -41,11 +40,12 @@ return (
   <h4>Coursework completed as part of the Master of Science in Applied Computer Science program from University of West Georgia</h4>
   <div class="card-container">
 
-{projects.map(({ node: project }) =>{
+  {projects.map(({ node: project }) =>{
   const title = project.title;
   const descriptionShort = project.descriptionShort;
   const slug = project.slug;
   const imageData = project.image.childImageSharp.fluid;
+  const previewCta = project.previewCta;
 
   return (
     <ProjectPreview
@@ -53,6 +53,7 @@ return (
     descriptionShort={descriptionShort}
     slug={slug}
     imageData={imageData}
+    previewCta={previewCta}
     />
   )
 })}
