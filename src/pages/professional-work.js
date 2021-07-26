@@ -9,7 +9,7 @@ import About from "../components/about";
 export default () => {
 const data = useStaticQuery(graphql `
 {
-  allProjectsJson ( filter: { featured:  { eq: true } }) {
+  allProjectsJson ( filter: { projectType:  { eq: "professional"} }) {
     edges {
       node {
         title
@@ -37,7 +37,7 @@ return (
   <Layout>
 <main id="work-container">
   <div class="wrapper">
-  <h3>Featured Work</h3>
+  <h3>Professional Work</h3>
   <div class="card-container">
 
 {projects.map(({ node: project }) =>{
@@ -60,8 +60,6 @@ return (
   </div>
   </div>
   </main>
-  <Skills />
-  <About />
   </Layout>
 );
 };
