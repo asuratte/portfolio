@@ -21,6 +21,8 @@ projectsJson(slug: { eq: $slug }) {
       }
     }
   }
+  featured
+  projectType
 }
 }
 `;
@@ -35,6 +37,7 @@ const ProjectTemplate = ({ data }) => {
     const projectLink = project.projectLink;
     const projectLinkText = project.projectLinkText;
     const imageData = project.image.childImageSharp.fluid;
+    const projectType = project.projectType;
 
     return (
         <Layout>
@@ -47,6 +50,7 @@ const ProjectTemplate = ({ data }) => {
             projectLink={projectLink}
             projectLinkText={projectLinkText}
             imageData={imageData}
+            projectType={projectType}
             />
         </Layout>
     );
