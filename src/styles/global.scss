@@ -359,7 +359,7 @@ a.project-link:hover {
     font-size: 1rem;
   }
 
-  button.card-cta {
+  span.card-cta {
     background: -webkit-linear-gradient(45deg, #00d3ff, #d799f7, #ff0081);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -372,9 +372,10 @@ a.project-link:hover {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     border: 0;
     padding: 0;
+    display: inline-block;
   }
 
-  button.card-cta:hover, .single-card a:hover button.card-cta {
+  span.card-cta:hover, .single-card a:hover span.card-cta {
     background: -webkit-linear-gradient(45deg,#ff0081,#d799f7,#00d3ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
