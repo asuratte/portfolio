@@ -22,7 +22,7 @@
     "projectLink": "https://codepen.io/asuratte/pen/OJNaxLb",
     "projectLinkText": "View on CodePen >",
     "previewCta": "See Details >",
-    "featured": true,
+    "featured": false,
     "projectType": "professional"
 },
 {
@@ -33,7 +33,7 @@
     "descriptionLong1": "The purpose of this project was to enable all members of our small marketing team to update this deals page without developer assistance. They were provided a Google Sheet where they could enter image URLs, copy, links, and start/end dates for each offer, which would then instantly populate the page.",
     "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data, desigining the offers to accommodate a combination of 1-2 images, headline, subheadline, and call to action, as well as serving the experience through Adobe Target.",
     "previewCta": "See Details >",
-    "featured": true,
+    "featured": false,
     "projectType": "professional"
 },
 {
@@ -56,7 +56,7 @@
     "projectLink": "https://codepen.io/asuratte/pen/bGpzxVZ",
     "projectLinkText": "View on CodePen >",
     "previewCta": "See Details >",
-    "featured": false,
+    "featured": true,
     "projectType": "professional"
 },
 {
@@ -302,7 +302,7 @@
     "descriptionLong1": "The purpose of this project was to demonstrate the computer science concepts I'd learned in the two previous semesters. I started by researching the game and creating a user guide website. Next, I inherited some non-functional starter code which I finished developing in order to get to the minimum viable product. After that, I began iteratively enhancing the app and expanding its functionality. I added features like a menu system with keyboard shortcuts, a personalized user interface, and different gameplay strategies for the computer player.",
     "descriptionLong2": "Concepts covered included the MVC pattern, Observer pattern, Strategy Design pattern, refactoring, JUnit testing, and Behavior Driven Development. A link to an in-depth technical document describing the application development process can be found below.",
     "previewCta": "See Details >",
-    "featured": false,
+    "featured": true,
     "projectType": "student",
     "projectLink": "https://drive.google.com/file/d/1FDxlGE6Ve96cgUCdwlJxApBYHFZbpg4Q/view?usp=sharing",
     "projectLinkText": "View Technical Document >"
