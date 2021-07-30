@@ -9,7 +9,7 @@
     "projectLink": "https://codepen.io/asuratte/pen/yLMxGWK",
     "projectLinkText": "View on CodePen >",
     "previewCta": "See Details >",
-    "featured": true,
+    "featured": false,
     "projectType": "professional"
 },
 {
@@ -331,5 +331,56 @@
     "projectLink": "https://drive.google.com/file/d/1wLspn_bCb4g_f9FllTiqRSF7-dKVhJ5-/view?usp=sharing",
     "projectLinkText": "View Usability Testing Report >"
     
+},
+{
+    "title": "PHP Templating with Twig",
+    "slug": "twig-templating",
+    "image": "./images/web-tech-final-twig.jpg",
+    "descriptionShort": "This page uses Twig as a template engine to efficiently render similar blocks of content.",
+    "descriptionLong1": "The purpose of this project was to demonstrate my proficiency with using Twig to create PHP templates. The data is being rendered from a MySQL relational database which I designed and built.",
+    "descriptionLong2": "Shared components like the page header and footer were abstracted into separate Twig templates which are imported as needed into the page templates. The template references session data and displays a \"recommended for you\" flag if the logged in user has favorited a specific meal.",
+    "previewCta": "See Details >",
+    "featured": true,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/web-tech-2-final/blob/master/view/meal_options.twig",
+    "projectLinkText": "View on GitHub >"
+    
+},
+{
+    "title": "User Authentication with PHP & Session Data",
+    "slug": "user-authentication",
+    "image": "./images/web-tech-final-authentication.jpg",
+    "descriptionShort": "This site allows users to log in to view members-only content including order history and account information.",
+    "descriptionLong1": "The entered password is checked against the encrypted password associated with the username in the MySQL database, and the user is shown a confirmation message once logged in. The Log In and Sign Up links in the navigation are then replaced with the user's account management menu, personalized with their first name. The order history can be sorted by date.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/web-tech-2-final/blob/master/Controller.php",
+    "projectLinkText": "View on GitHub >"
+    
+},
+{
+    "title": "Server-Side Data Calculation with PHP",
+    "slug": "server-side-data-calculation",
+    "image": "./images/web-tech-final-data-calculation.jpg",
+    "descriptionShort": "This page allows users to calculate order totals and submit an order.",
+    "descriptionLong1": "After filling out the form with the selected meals, clicking on the \"calculate total\" button will show a table with the line items, quantity entered, subtotal, taxes, and total. Clicking \"submit order\" will save the order details to the database.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/web-tech-2-final/blob/master/view/order_now.twig",
+    "projectLinkText": "View on GitHub >"
+},
+{
+    "title": "Form Validation and Processing with PHP",
+    "slug": "server-side-form-validation",
+    "image": "./images/web-tech-final-form-validation.jpg",
+    "descriptionShort": "This sign up form uses server-side code to validate and save form data to a database.",
+    "descriptionLong1": "I first built a model class containing methods which validate different parts of the form like the email address and phone number. Once the form is submitted, the data is run through the validator class and the controller passes the relevant error information to the view. In the page's template, Twig conditionals are used to display error messages and apply classes as needed if there are errors.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/web-tech-2-final/blob/master/view/sign_up.twig",
+    "projectLinkText": "View on GitHub >"
 }
 ]
