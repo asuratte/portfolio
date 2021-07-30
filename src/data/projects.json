@@ -382,5 +382,28 @@
     "projectType": "student",
     "projectLink": "https://github.com/asuratte/web-tech-2-final/blob/master/view/sign_up.twig",
     "projectLinkText": "View on GitHub >"
+},
+{
+    "title": "Render Stock Charts Dynamically with JavaFX",
+    "slug": "dynamic-stock-charts",
+    "image": "./images/6312-final-stocks.jpg",
+    "descriptionShort": "This project demonstrates reading input data from a file and displaying it in a chart.",
+    "descriptionLong1": "I first created text files for different stocks containing the necessary data. I built a JavaFX application using the MVC design pattern which renders a default stock chart when launched, and allows the user to choose a new file to view a chart for.",
+    "descriptionLong2": "The chart is drawn using JavaFX lines, labels, and shapes, and it's responsive as the window size changes which I achieved using property binding.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student"
+},
+{
+    "title": "MySQL Database Design",
+    "slug": "library-database",
+    "image": "./images/6252-library-database.jpg",
+    "descriptionShort": "I was tasked with designing and developing a relational database for a library application.",
+    "descriptionLong1": "This database needed to keep track of books, patrons, and the books that have been checked out by a patron. I used foreign keys to associate specific tables to others (books and publishers are associated via the \"publisherID\" for example). I first mapped out my database architecture on paper, then moved into MySQL Workbench to mock it up. After that, I took the SQL file that MySQL Workbench generated from my design and modified it as needed to get the desired results. This included checking whether the database already existed before creating it, dropping tables if they already exist, pre-populating serveral rows of each table, and granting access to users.",
+    "previewCta": "See Details >",
+    "projectLink": "https://github.com/asuratte/web-tech-2-library-database/blob/main/library_database.sql",
+    "projectLinkText": "View on GitHub >",
+    "featured": false,
+    "projectType": "student"
 }
 ]
