@@ -60,6 +60,19 @@
     "projectType": "professional"
 },
 {
+    "title": "Order Cancellation Component",
+    "slug": "order-cancellation",
+    "image": "./images/AHR-order-cancellations.jpg",
+    "descriptionShort": "This feature informs users if items they ordered are no longer available.",
+    "descriptionLong1": "For this project I was tasked with taking customer-specific order cancellation data from an Excel spreadsheet and creating a component that would conditionally show on users' order history page based on their customer number. I translated the spreadsheet into JSON and split it up into 3 minified files for performance. I then wrote JavaScript to read the data from each file, search for a customer number match, build a table with any matching data, and then insert that table into the page in a bootstrap accordion.",
+    "descriptionLong2": "If a user visits their order history pages and has cancelled items, they will see a banner alerting them to it, and will be able to click a button to expand the accordion and view the table. This script was then injected into the site via Adobe Target.",
+    "projectLink": "https://codepen.io/asuratte/pen/rNweZJL",
+    "projectLinkText": "View on CodePen >",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "professional"
+},
+{
     "title": "Web Component Builder",
     "slug": "adshark",
     "image": "./images/adshark.jpg",
@@ -87,8 +100,6 @@
     "image": "./images/AHR-230West-LP.jpg",
     "descriptionShort": "This is one of seven landing pages I designed and built for a new product launch campaign.",
     "descriptionLong1": "These landing pages were designed in Photoshop, and coded using Bootstrap as a base.",
-    "projectLink": "https://www.americanhotel.com/230-west-coffee",
-    "projectLinkText": "View on AmericanHotel.com >",
     "previewCta": "See Details >",
     "featured": false,
     "projectType": "professional"
@@ -382,6 +393,17 @@
     "projectType": "student",
     "projectLink": "https://github.com/asuratte/web-tech-2-final/blob/master/view/sign_up.twig",
     "projectLinkText": "View on GitHub >"
+},
+{
+    "title": "Single-Player Scrabble Clone Built with JavaFX",
+    "slug": "babble",
+    "image": "./images/6241-babble.jpg",
+    "descriptionShort": "This project demonstrates building an event-driven and accessible GUI using JavaFX.",
+    "descriptionLong1": "I began with a provided starter project which contained only model classes. I studied the model classes and requirements, and then began building the GUI using Scene Builder. I then wrote a controller class to tie the GUI and model together. Once the game was playable, I tested it using a screen reader to ensure accessibility. After that, I fully unit tested the model classes, ensuring 100% coverage using EclEmma.",
+    "descriptionLong2": "The game plays like a single-player version of Scrabble. The user is presented with a rack of 7 tiles, of which they need to make a word. The game checks their submission against a dictionary, and scores the word if accepted. The game is over when the tiles run out or no more words can be made.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student"
 },
 {
     "title": "Render Stock Charts Dynamically with JavaFX",
