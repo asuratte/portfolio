@@ -9,18 +9,23 @@ const Skills = () => (
     <li>CSS3</li>
     <li>JavaScript</li>
     <li>jQuery</li>
-    <li>Web Development</li>
     <li>Responsive Web Design</li>
-    <li>Web Application Development</li>
     <li>HTML Email Development</li>
+    <li>Version Control</li>
+    <li>Web Application Development</li>
     <li>Web Content Administration</li>
     <li>Website Optimization</li>
     <li>Conversion Rate Optimization</li>
     <li>A/B/n &amp; Multivariate Testing</li>
     <li>Cross-Browser/Platform/Device Testing</li>
-    <li>Version Control</li>
+    <li>Bootstrap</li>
     <li>Unit &amp; E2E Testing</li>
+    <li>Wordpress</li>
+    <li>Java</li>
+    <li>Angular</li>
     <li>Test- &amp; Behavior-Driven Development</li>
+    <li>Relational Database Design &amp; Development</li>
+    <li>A11Y</li>
   </ul>
   </div>
 </section>
