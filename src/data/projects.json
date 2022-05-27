@@ -341,6 +341,30 @@
     "projectType": "student"
 },
 {
+    "title": "C# & MS SQL Server Database Application - RentMe",
+    "slug": "rent-me-app",
+    "image": "./images/6232-app-rentme.jpg",
+    "descriptionShort": "I developed this application along with one teammate as coursework for Database Systems II.",
+    "descriptionLong1": "We developed this application iteratively based on client specifications. We started by designing the database schema, creating GUI mockups, and translating the requirements into a product backlog. We then divided up the features from the backlog and implemented them, collaborating using Git and testing/merging in each other's work. Once all requirements were met we worked on enhancing the user experience.",
+    "previewCta": "See Details >",
+    "projectLink": "https://github.com/asuratte/rentme",
+    "projectLinkText": "View on GitHub >",
+    "featured": true,
+    "projectType": "student"
+},
+{
+    "title": "Enhanced Entity Relation Diagram - RentMe",
+    "slug": "rent-me-eerd",
+    "image": "./images/6232-eerd-rentme.jpg",
+    "descriptionShort": "This EERD was designed along with one teammate as coursework for Database Systems II.",
+    "descriptionLong1": "We started by documenting the different entities involved with a furniture rental store based on the project specifications. After that, we mapped out the relationships between the different entities, specifying the primary and foreign keys, cardinality, and identifying vs non-identifying relationships.",
+    "previewCta": "See Details >",
+    "projectLink": "https://github.com/asuratte/rentme",
+    "projectLinkText": "View on GitHub >",
+    "featured": false,
+    "projectType": "student"
+},
+{
     "title": "Pig: An Interactive Dice Game",
     "slug": "pig",
     "image": "./images/uwg-6910-pig.jpg",
@@ -434,7 +458,7 @@
     "descriptionLong1": "I first created text files for different stocks containing the necessary data. I built a JavaFX application using the MVC design pattern which renders a default stock chart when launched, and allows the user to choose a new file to view a chart for.",
     "descriptionLong2": "The chart is drawn using JavaFX lines, labels, and shapes, and it's responsive as the window size changes which I achieved using property binding.",
     "previewCta": "See Details >",
-    "featured": true,
+    "featured": false,
     "projectType": "student"
 },
 {
