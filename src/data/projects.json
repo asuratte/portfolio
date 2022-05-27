@@ -341,11 +341,11 @@
     "projectType": "student"
 },
 {
-    "title": "C# & MS SQL Server Database Application - RentMe",
+    "title": "C#, WinForm, ADO.NET & MS SQL Server Database Application - RentMe",
     "slug": "rent-me-app",
     "image": "./images/6232-app-rentme.jpg",
     "descriptionShort": "I developed this application along with one teammate as coursework for Database Systems II.",
-    "descriptionLong1": "We developed this application iteratively based on client specifications. We started by designing the database schema, creating GUI mockups, and translating the requirements into a product backlog. We then divided up the features from the backlog and implemented them, collaborating using Git and testing/merging in each other's work. Once all requirements were met we worked on enhancing the user experience.",
+    "descriptionLong1": "We developed this application iteratively based on client specifications. We started by designing the database schema, creating GUI mockups, and translating the requirements into a product backlog. We then divided up the features from the backlog and implemented them, collaborating using Git and testing/merging in each other's work. Once all requirements were met we worked on enhancing the user experience. The images above show a subset of the features, which included login, encrypted password storage, member registration and updating, member lookup, member rental/return history, furniture item search, member cart, member rental transactions, and member return transactions.",
     "previewCta": "See Details >",
     "projectLink": "https://github.com/asuratte/rentme",
     "projectLinkText": "View on GitHub >",

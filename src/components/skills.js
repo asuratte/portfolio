@@ -22,10 +22,15 @@ const Skills = () => (
     <li>Unit &amp; E2E Testing</li>
     <li>Wordpress</li>
     <li>Java</li>
+    <li>C#</li>
+    <li>ADO.NET</li>
     <li>Angular</li>
+    <li>NodeJS</li>
+    <li>Ruby on Rails</li>
     <li>Test- &amp; Behavior-Driven Development</li>
     <li>Relational Database Design &amp; Development</li>
     <li>A11Y</li>
+    <li>Marketing Automation</li>
   </ul>
   </div>
 </section>
