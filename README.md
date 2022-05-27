@@ -1,3 +1,15 @@
+To run in development mode:
+
+gatsby development
+
+To build and deploy to GitHub Pages:
+npm run build && node ./scripts/deploy-github
+
+To install on a new machine:
+clone repo from GitHub
+npm install gatsby react react-dom
+npm install --save-dev
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
