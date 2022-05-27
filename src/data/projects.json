@@ -130,6 +130,16 @@
     "projectType": "professional"
 },
 {
+    "title": "Contact Us Page Redesign",
+    "slug": "chs-contact-us-redesign",
+    "image": "./images/chs-contact-us-redesign.jpg",
+    "descriptionShort": "I redesigned an existing contact page to improve usability and adherence to brand guidelines.",
+    "descriptionLong1": "The new layout better reflects the different business units and additionally provides location information for corporate HQ and distribution centers.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "professional"
+},
+{
     "title": "Dynamic Email Template",
     "slug": "dynamic-email-template",
     "image": "./images/AHR-dynamic-email-template.jpg",
