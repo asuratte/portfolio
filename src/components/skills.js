@@ -23,6 +23,8 @@ const Skills = () => (
     <li>Wordpress</li>
     <li>Java</li>
     <li>C#</li>
+    <li>PHP</li>
+    <li>SQL</li>
     <li>ADO.NET</li>
     <li>Angular</li>
     <li>NodeJS</li>
@@ -31,6 +33,7 @@ const Skills = () => (
     <li>Relational Database Design &amp; Development</li>
     <li>A11Y</li>
     <li>Marketing Automation</li>
+    <li>Project Management</li>
   </ul>
   </div>
 </section>
