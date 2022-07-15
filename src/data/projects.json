@@ -22,7 +22,7 @@
     "projectLink": "https://codepen.io/asuratte/pen/OJNaxLb",
     "projectLinkText": "View on CodePen >",
     "previewCta": "See Details >",
-    "featured": true,
+    "featured": false,
     "projectType": "professional"
 },
 {
@@ -34,17 +34,6 @@
     "descriptionLong2": "My contributions included writing JavaScript to consume the JSON data, desigining the offers to accommodate a combination of 1-2 images, headline, subheadline, and call to action, as well as serving the experience through Adobe Target.",
     "previewCta": "See Details >",
     "featured": false,
-    "projectType": "professional"
-},
-{
-    "title": "Web Scraper NodeJS app - SKU Shark",
-    "slug": "sku-shark",
-    "image": "./images/ahr-sku-shark.jpg",
-    "descriptionShort": "This app is an internal productivity tool used by the marketing department to aid in gathering product data for promotional emails.",
-    "descriptionLong1": "The purpose of this project was to automate the repetitve task of visiting product pages, copying data like name, price, image path, etc. and pasting it into a spreadsheet. The app was built using NodeJS and Express, and is hosted on Heroku.",
-    "descriptionLong2": "The user workflow starts with adding up to 12 SKUs (the max number of products we use in marketing emails), getting product data, copying it with one click, and then pasting it into the spreadsheet that drives the content for email campaigns. This was put into use immediately and resulted in a good deal of time savings for our small marketing team.",
-    "previewCta": "See Details >",
-    "featured": true,
     "projectType": "professional"
 },
 {
@@ -71,6 +60,69 @@
     "projectType": "professional"
 },
 {
+    "title": "ReportIt - Admin KPI Dashboard - Ruby on Rails",
+    "slug": "report-it-kpi-dashboard",
+    "image": "./images/reportit-kpis.jpg",
+    "descriptionShort": "This feature provides admin users with an interactive KPI dashboard.",
+    "descriptionLong1": "This is part of the capstone project for my Master's program and was developed with two teammates. The KPI dashboard feature was developed by me.",
+    "descriptionLong2": "I first decided on the data points that would be most beneficial for admins. Next, I identified and implemented the gems ChartKick and Groupdate to render charts and enable grouping by date. I then went on to make the necessary data available in the controller so the view could populate the charts, and set up logic to filter by date or view data for all time.",
+    "descriptionLong3": "This feature was fully unit tested using minitest, as well as manually verified through SQL queries on the PostgreSQL database.",
+    "previewCta": "See Details >",
+    "featured": true,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/report-it",
+    "projectLinkText": "View on GitHub >"
+},
+{
+    "title": "ReportIt - Authentication and User Management - Ruby on Rails",
+    "slug": "report-it-authentication",
+    "image": "./images/reportit-auth-user-management.jpg",
+    "descriptionShort": "A key feature of this application is the authentication system, allowing for signup, user administration, and access to restricted areas by role.",
+    "descriptionLong1": "This is part of the capstone project for my Master's program and was developed with two teammates. I designed and developed the user authentication system using the Devise gem and expanding upon it to allow for admin user account management and different user roles.",
+    "descriptionLong2": "Users who create an account through the signup form are automatically assigned a role of Resident. Admin users can then grant them Official or Admin privileges as needed. Official and Admin features are restricted from Residents, and Admin-only features are restricted from all other user types. Unauthenticated users may view reports but cannot add reports.",
+    "descriptionLong3": "Admin and Official users may view report history by user to better moderate the site and make decisions on report severity and priority.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/report-it",
+    "projectLinkText": "View on GitHub >"
+},
+{
+    "title": "ReportIt - Admin Content Management - Ruby on Rails",
+    "slug": "report-it-admin-content-management",
+    "image": "./images/reportit-admin-content-management.jpg",
+    "descriptionShort": "This feature allows admin users to adjust settings and add categories/subcategories to the application.",
+    "descriptionLong1": "This is part of the capstone project for my Master's program and was developed with two teammates. I designed and developed the homepage, added a settings section to allow admins to adjust site content and allow or disallow anonymous reporting, and allowed for creation, editing, and deactivation of categories and subcategories.",
+    "descriptionLong2": "Admin users can upload a logo via the settings form to replace the main site logo. Adding new text in the Heading and Footer Copyright fields will replace the homepage heading and the footer copyright statement. Anonymous report submission is turned on by default but can be disabled in case of a spam incident.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/report-it",
+    "projectLinkText": "View on GitHub >"
+},
+{
+    "title": "ReportIt - Resident Experience - Ruby on Rails",
+    "slug": "report-it-resident-experience",
+    "image": "./images/reportit-resident.jpg",
+    "descriptionShort": "Resident users may edit their account, create reports, view a list of their own reports, and explore reports submitted by other users.",
+    "descriptionLong1": "This is part of the capstone project for my Master's program and was developed with two teammates. I designed and developed the homepage, created the user authentication system, and allowed for creation, editing, and deactivation of categories and subcategories.",
+    "previewCta": "See Details >",
+    "featured": false,
+    "projectType": "student",
+    "projectLink": "https://github.com/asuratte/report-it",
+    "projectLinkText": "View on GitHub >"
+},
+{
+    "title": "SplitTheCheck - Ruby on Rails",
+    "slug": "rails-split-the-check",
+    "image": "./images/uwg-6242-split-the-check-rails.jpg",
+    "descriptionShort": "I was tasked with designing and developing a Ruby on Rails application that allows users to vote on whether a given restaurant will split the check.",
+    "descriptionLong1": "I started by modeling out UML diagrams and state charts, and then iteratively developed the required features in sprints. Some of the requirements included user authentication, upvote/downvote, favoriting, searching by name or location, commenting, user activity summary page, generating and seeding the database with sample data, and adding pagination. GitHub repo access available upon request.",
+    "previewCta": "See Details >",
+    "featured": true,
+    "projectType": "student"
+},
+{
     "title": "PHP Templating with Twig",
     "slug": "twig-templating",
     "image": "./images/web-tech-final-twig.jpg",
@@ -93,6 +145,17 @@
     "descriptionLong2": "If a user visits their order history pages and has cancelled items, they will see a banner alerting them to it, and will be able to click a button to expand the accordion and view the table. This script was then injected into the site via Adobe Target.",
     "projectLink": "https://codepen.io/asuratte/pen/rNweZJL",
     "projectLinkText": "View on CodePen >",
+    "previewCta": "See Details >",
+    "featured": true,
+    "projectType": "professional"
+},
+{
+    "title": "Web Scraper NodeJS app - SKU Shark",
+    "slug": "sku-shark",
+    "image": "./images/ahr-sku-shark.jpg",
+    "descriptionShort": "This app is an internal productivity tool used by the marketing department to aid in gathering product data for promotional emails.",
+    "descriptionLong1": "The purpose of this project was to automate the repetitve task of visiting product pages, copying data like name, price, image path, etc. and pasting it into a spreadsheet. The app was built using NodeJS and Express, and is hosted on Heroku.",
+    "descriptionLong2": "The user workflow starts with adding up to 12 SKUs (the max number of products we use in marketing emails), getting product data, copying it with one click, and then pasting it into the spreadsheet that drives the content for email campaigns. This was put into use immediately and resulted in a good deal of time savings for our small marketing team.",
     "previewCta": "See Details >",
     "featured": true,
     "projectType": "professional"
@@ -341,16 +404,6 @@
     "projectType": "professional"
 },
 {
-    "title": "Ruby on Rails Web Application",
-    "slug": "rails-split-the-check",
-    "image": "./images/uwg-6242-split-the-check-rails.jpg",
-    "descriptionShort": "I was tasked with designing and developing a Ruby on Rails application that allows users to vote on whether a given restaurant will split the check.",
-    "descriptionLong1": "I started by modeling out UML diagrams and state charts, and then iteratively developed the required features in sprints. Some of the requirements included user authentication, upvote/downvote, favoriting, searching by name or location, commenting, user activity summary page, generating and seeding the database with sample data, and adding pagination. GitHub repo access available upon request.",
-    "previewCta": "See Details >",
-    "featured": true,
-    "projectType": "student"
-},
-{
     "title": "C#, WinForm, ADO.NET & MS SQL Server Database Application - RentMe",
     "slug": "rent-me-app",
     "image": "./images/6232-app-rentme.jpg",
@@ -468,18 +521,6 @@
     "descriptionLong1": "I first created text files for different stocks containing the necessary data. I built a JavaFX application using the MVC design pattern which renders a default stock chart when launched, and allows the user to choose a new file to view a chart for.",
     "descriptionLong2": "The chart is drawn using JavaFX lines, labels, and shapes, and it's responsive as the window size changes which I achieved using property binding.",
     "previewCta": "See Details >",
-    "featured": false,
-    "projectType": "student"
-},
-{
-    "title": "MySQL Database Design",
-    "slug": "library-database",
-    "image": "./images/6252-library-database.jpg",
-    "descriptionShort": "I was tasked with designing and developing a relational database for a library application.",
-    "descriptionLong1": "This database needed to keep track of books, patrons, and the books that have been checked out by a patron. I used foreign keys to associate specific tables to others (books and publishers are associated via the \"publisherID\" for example). I first mapped out my database architecture on paper, then moved into MySQL Workbench to mock it up. After that, I took the SQL file that MySQL Workbench generated from my design and modified it as needed to get the desired results. This included checking whether the database already existed before creating it, dropping tables if they already exist, pre-populating serveral rows of each table, and granting access to users.",
-    "previewCta": "See Details >",
-    "projectLink": "https://github.com/asuratte/web-tech-2-library-database/blob/main/library_database.sql",
-    "projectLinkText": "View on GitHub >",
     "featured": false,
     "projectType": "student"
 }

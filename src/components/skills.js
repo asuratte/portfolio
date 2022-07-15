@@ -20,6 +20,7 @@ const Skills = () => (
     <li>Cross-Browser/Platform/Device Testing</li>
     <li>Bootstrap</li>
     <li>Unit &amp; E2E Testing</li>
+    <li>Ruby on Rails</li>
     <li>Wordpress</li>
     <li>Java</li>
     <li>C#</li>
@@ -28,7 +29,6 @@ const Skills = () => (
     <li>ADO.NET</li>
     <li>Angular</li>
     <li>NodeJS</li>
-    <li>Ruby on Rails</li>
     <li>Test- &amp; Behavior-Driven Development</li>
     <li>Relational Database Design &amp; Development</li>
     <li>A11Y</li>
